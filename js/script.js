@@ -29,8 +29,6 @@ const modal = new Modal(
 );
 modal.init();
 
-modal.toggleModal();
-
 initTooltip();
 initDropdownMenu();
 initMenuMobile();
