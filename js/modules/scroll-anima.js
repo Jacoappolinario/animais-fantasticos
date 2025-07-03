@@ -6,6 +6,8 @@ export default class ScrollAnima {
     this.checkDistance = this.checkDistance.bind(this);
   }
 
+  // Pega a distância de cada item em relação ao topo
+  // do site
   getDistance() {
     this.distance = [...this.sections].map((section) => {
       const offset = section.offsetTop;
